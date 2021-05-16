@@ -9,7 +9,7 @@ function getPastFormat(DataObj,   dayfirst,dayarr,format,    minutefirst,minutea
     参数7：如果不是xx小时/xx分钟/xx天前,1 ;
 
     使用示例： getPastFormat(new Date(),'year',['年前','月前','天前'],'yyyy-MM-dd','hour',['小时前','分钟前','刚刚'],'hh:mm:ss')
-    */
+    */  
     var time= Date.parse(new Date());
     var lasttime=(typeof DataObj)=='number'?DataObj:Date.parse(DataObj);
 
